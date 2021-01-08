@@ -32,16 +32,16 @@ function App() {
       <form>
          <FormControl>
            <InputLabel>Write a Todo</InputLabel>
-           <Input value ={input} onChange={event => setInput(event.target.value)}/>
+            <Input value ={input} onChange={event => setInput(event.target.value)}/>
          </FormControl>
         <Button disabled={!input} type="submit" onClick={addTodo} variant="contained" color="primary">
-         Add Todos
+          Add Todos
         </Button>
       </form>
 
      <ul>
         {todos.map(todo => (
-        <Todo text={todo}/>     
+        <Todo todo={todo}/>     
          ))} 
      </ul>
     </div>

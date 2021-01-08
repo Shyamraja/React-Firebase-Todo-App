@@ -1,18 +1,64 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out this README Template. This template is for user guidance and detail about this project
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ABOUT THE PROJECT -->
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+This application can show Todos in list and users can add, update,delete todos. Project database is made in google firebase console.App is hosted in Google firebase.
+
+## Built With
+
+The major technologies that are used to develop projects are as follows
+
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Firebase](https://firebase.google.com/)
+- [Firebase Console](https://console.firebase.google.com/)
+- [Material UI](https://material-ui.com/)
+
+## Prerequisites
+
+In order to run this, you should have node in your device. After that you have to install firebase and material UI.Google Firebase console can be used for creating database and deploying the app.
+
+You can download and install requirements from the following links:
+
+- [Node](https://nodejs.org/en/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Firebase](https://firebase.google.com/)
+- [Firebase Console](https://console.firebase.google.com/)
+- [Material UI](https://material-ui.com/)
+
+
+
+## Run application
+
+ 1.Clone with the repository from https://github.com/Shyamraja/React-Firebase-Todo-App.git
+
+ 2.Run following command 
+
+ ## npm install
+ After installing npm.
+
+## npm install @material-ui/core
+Install material UI.
+
+## npm install -g firebase-tools
+Install firebase tools.
 
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You will also see if there are any errors present in the console.
+
+
+## App Demo Link
+
+You can also upload the application in Firebase. I have uploaded and the live link is
+
+https://todo-app-cp-7ffef.firebaseapp.com/
 
 ### `npm test`
 
@@ -61,10 +107,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
